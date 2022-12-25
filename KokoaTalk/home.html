@@ -8,31 +8,37 @@
         <title>Home - My first website</title>
 
         <style>
-            body {
-                height: 1000vh;
-                margin: 20px;
+            a:visited {
+                color: tomato;
             }
-            input {
-                border: 1px solid wheat;
+            a:hover {
+                color: teal;
+            }
+            a:focus {
+                color: turquoise;
+            }
+            form {
+                border: 3px solid salmon;
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
             }
 
-            input:required {
-                border-color: tomato;
+            form:focus-within {
+                border-color: seagreen;
             }
-
-            input[placeholder~="name"] {
-                background-color: thistle;
+            form:hover input:focus {
+                background-color: aqua;
             }
         </style>
     </head>
 
     <body>
-        <div>
-            <form>
-                <input type="text" placeholder="First name" />
-                <input type="text" placeholder="Last name" />
-                <input type="password" required placeholder="password" />
-            </form>
-        </div>
+        <a href="https://apple.com">Go to apple</a>
+        <form>
+            <input type="text" />
+            <input type="text" />
+            <input type="text" />
+        </form>
     </body>
 </html>
