@@ -8,37 +8,37 @@
         <title>Home - My first website</title>
 
         <style>
-            a:visited {
-                color: tomato;
-            }
-            a:hover {
-                color: teal;
-            }
-            a:focus {
-                color: turquoise;
-            }
-            form {
-                border: 3px solid salmon;
-                display: flex;
-                flex-direction: column;
-                padding: 20px;
+            input::placeholder {
+                color: yellowgreen;
             }
 
-            form:focus-within {
-                border-color: seagreen;
+            p::selection {
+                background-color: black;
+                padding: 5px;
+                color: white;
             }
-            form:hover input:focus {
-                background-color: aqua;
+
+            p::first-letter {
+                color: white;
+                font-size: 50px;
+                background-color: black;
+            }
+            p::first-line {
+                color: white;
+                background-color: black;
             }
         </style>
     </head>
 
     <body>
-        <a href="https://apple.com">Go to apple</a>
         <form>
-            <input type="text" />
-            <input type="text" />
-            <input type="text" />
+            <input type="text" placeholder="Name" />
         </form>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            doloribus dolorem rerum quaerat optio quis alias possimus tempore
+            amet veritatis, odio laborum sapiente temporibus eum culpa! Ullam
+            odit tempore quasi.
+        </p>
     </body>
 </html>
