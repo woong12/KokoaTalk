@@ -13,40 +13,44 @@
                 justify-content: center;
                 height: 100vh;
                 align-items: center;
+                flex-direction: column;
             }
-            @keyframes coinFlip {
-                0% {
-                    transform: rotateY(0);
-                }
-                25% {
-                    transform: scale(2);
-                }
-                50% {
-                    border-radius: 0px;
-                    transform: rotateY(180deg) translateY(-100px);
-                    border-color: tomato;
-                    opacity: 0;
-                }
-                75% {
-                    transform: scale(5);
-                    border-radius: 20px;
-                }
-                100% {
-                    transform: rotateY(0);
-                }
+            .box {
+                background-color: teal;
+                width: 200px;
+                height: 200px;
             }
 
-            img {
-                border: 1px solid black;
-                border-radius: 50%;
-                height: 50px;
-                width: 50px;
-                animation: coinFlip 5s ease-in-out infinite;
+            /* @media screen and (max-width: 600px) {
+                .box {
+                    background-color: tomato;
+                }
+            } */
+            @media screen and (min-width: 601px) and (max-width: 1200px) and (orientation: landscape) {
+                .box {
+                    background-color: wheat;
+                }
+            }
+            /* @media screen and (min-width: 1200px) {
+                .box {
+                    background-color: turquoise;
+                }
+            } */
+
+            span {
+                font-size: 30px;
+            }
+
+            @media screen and (orientation: landscape) {
+                span {
+                    display: none;
+                }
             }
         </style>
     </head>
 
     <body>
-        <img src="img/logo.PNG" alt="" />
+        <div class="box"></div>
+        <span>Please flip your phone</span>
     </body>
 </html>
