@@ -8,17 +8,19 @@
         <title>Home - My first website</title>
 
         <style>
+            @keyframes coinFlip {
+                from {
+                    transform: rotateX(0);
+                }
+                to {
+                    transform: rotateX(180deg) translateX(100px);
+                }
+            }
+
             img {
                 border: 1px solid black;
                 border-radius: 50%;
-                /* transform: rotateY(85deg) rotateX(20deg) rotateZ(30deg);
-                transform: scale(2, 2);
-                transform: translateX(100px); */
-                transition: transform 2s ease-in-out;
-            }
-
-            img:hover {
-                transform: matrix(1, 2, 3, 4, 5, 6);
+                animation: coinFlip 5s ease-in-out infinite;
             }
         </style>
     </head>
