@@ -152,3 +152,17 @@ state에 transition을 준다면 변화를 준것(예를들면 hover라면 마�
 원래상태로 바로 돌아간다
 rule2> transtion 에 변화를 준것들은 state에 들어있는것들이 기준이 되어 바뀌는것이다
 바뀌는 것들에 한정하여 transition 이 일어날 수 있다
+https://matthewlein.com/tools/ceaser
+
+#4.1
+transition 은 상태에 따라 바귀는 요소가 있을때 사용함
+상태 ex) hover, active, focus ...
+ease-in function : 브라우저에게 변화하는 방법을 알려주는 역할
+ㄴlinear - 변화 그래프가 직선
+ㄴease-in - 시작과 끝이 빠름
+ㄴease-out - 시작과 끝이 느림
+ㄴease-in-out - 시작이 빠르고 끝이 느림
+all : 변화 요소를 한번에 다룬다.
+ㄴ따로 다루고 싶으면 각각 써주면 됨
+
+cubic-bezier(0, 0, 0, 0); 으로 직접 설정할수도 있다.
