@@ -8,27 +8,25 @@
         <title>Home - My first website</title>
 
         <style>
-            :root {
-                --main-color: #489ee3;
-                --default-border: 1px solid var(--main-color);
-            }
-            p {
-                background-color: var(--main-color);
-            }
             a {
-                color: var(--main-color);
-                border: var(--default-border);
+                color: wheat;
+                background-color: tomato;
+                text-decoration: none;
+                padding: 3px 5px;
+                border-radius: 10px;
+                font-size: 55px;
+                transition: all 5s ease-in-out;
+            }
+
+            a:hover {
+                border-radius: 15px;
+                color: tomato;
+                background-color: wheat;
             }
         </style>
     </head>
 
     <body>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            doloribus dolorem rerum quaerat optio quis alias possimus tempore
-            amet veritatis, odio laborum sapiente temporibus eum culpa! Ullam
-            odit tempore quasi.
-        </p>
-        <a href="#">website</a>
+        <a href="#">Go home</a>
     </body>
 </html>
