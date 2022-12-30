@@ -10,6 +10,7 @@
 
 .status-bar__column:nth-child(2) {
     display: flex;
+    font-weight: 600;
     justify-content: center;
 }
 
@@ -20,6 +21,7 @@
 }
 .status-bar__column:first-child span {
     margin-right: 5px;
+    font-weight: 600;
 }
 
 .status-bar__column .fa-battery-full {
