@@ -1,0 +1,28 @@
+#friends-display-link {
+    display: block;
+    text-align: center;
+    background-color: #fafafa;
+    padding: 16px 0px;
+    font-size: 17px;
+    position: relative;
+}
+
+#friends-display-link em {
+    font-weight: 500;
+}
+
+.fa-circle-info {
+    font-size: 19px;
+    margin-right: 3px;
+}
+
+.fa-chevron-right {
+    position: absolute;
+    margin-left: 10px;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+#friends-display-link i {
+    color: rgba(0, 0, 0, 0.3);
+}
