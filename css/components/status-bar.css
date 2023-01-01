@@ -17,13 +17,23 @@
 .status-bar__column:last-child {
     display: flex;
     justify-content: flex-end;
+    font-weight: 500;
     align-items: center;
 }
+
+.fa-battery-quarter {
+    color: red;
+}
+
 .status-bar__column:first-child span {
     margin-right: 5px;
     font-weight: 600;
 }
 
 .status-bar__column .fa-battery-full {
+    margin: 0px 5px;
+}
+
+.status-bar__column .fa-battery-quarter {
     margin: 0px 5px;
 }
