@@ -2,9 +2,10 @@
     display: block;
     text-align: center;
     background-color: #fafafa;
-    padding: 16px 0px;
-    font-size: 17px;
+    padding: 14px 0px;
+    font-size: 18px;
     position: relative;
+    margin-bottom: 10px;
 }
 
 #friends-display-link em {
@@ -25,4 +26,8 @@
 
 #friends-display-link i {
     color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-screen {
+    padding: 0px var(--horizontal-space);
 }
