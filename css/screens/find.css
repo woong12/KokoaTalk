@@ -73,6 +73,7 @@
     opacity: 0.7;
     margin-right: 15px;
     display: flex;
+    cursor: pointer;
 }
 
 .open-chat__header span i {
@@ -85,6 +86,16 @@
 
 .open-post {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.a {
+    position: relative;
+}
+.open-post__column-info {
+    position: absolute;
+    margin-top: -60px;
 }
 
 .open-post__title {
@@ -105,26 +116,33 @@
     margin-top: 7px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .open-post__members img {
     width: 20px;
     height: 20px;
-    margin-right: 5px;
+    margin-right: 8px;
     border-radius: 50%;
 }
 
 .open-post__member-count {
     opacity: 0.6;
-    font-size: 15px;
+    font-size: 15.5px;
     font-weight: 500;
     letter-spacing: 0.3px;
+    display: flex;
+}
+
+.open-post__member-count .second {
+    margin-left: 5px;
 }
 
 .open-post__members .divider {
-    width: 2px;
+    width: 1.4px;
     height: 14px;
-    margin: 0 7px;
+    position: absolute;
+    margin-left: 139px;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -132,5 +150,44 @@
     color: #ec6dba;
     font-weight: 500;
     font-size: 15px;
+    margin-left: 15px;
     letter-spacing: 0.5px;
+}
+
+.open-post__photo img {
+    width: 105px;
+    height: 105px;
+    border-radius: 10px;
+}
+
+.open-post__photo {
+    position: relative;
+}
+
+.open-post__heart-count {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border-radius: 11px;
+    width: 60px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+    bottom: 8px;
+    right: 7px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.open-post__heart-element i {
+    margin-top: 10px;
+}
+
+.open-post__heart-element {
+    margin-left: 10px;
+}
+
+.open-post__heart-count span {
+    margin-left: -1px;
 }
