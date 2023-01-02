@@ -112,6 +112,11 @@
     opacity: 0.5;
 }
 
+.open-post__hashtags-two {
+    width: 350px;
+    font-size: 15px;
+}
+
 .open-post__members {
     margin-top: 7px;
     display: flex;
@@ -124,6 +129,7 @@
     height: 20px;
     margin-right: 8px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .open-post__member-count {
@@ -158,6 +164,7 @@
     width: 105px;
     height: 105px;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .open-post__photo {
@@ -190,4 +197,13 @@
 
 .open-post__heart-count span {
     margin-left: -1px;
+}
+
+.open-post__one {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0px 0px 16px 0px;
+}
+
+.open-post__two {
+    padding: 16px 0px 0px 0px;
 }
