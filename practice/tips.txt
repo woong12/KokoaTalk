@@ -39,7 +39,7 @@ background-color: teal;
 id나 class를 따로 만드는것보다 이렇게 지정하는게 훨씬 좋은 방법이다.
 css에서만 선택을 하면 되니까! html코드를 고칠 필요가 없기 때문이다
 
-n번째 태그 수정하기 nth-child(n) 올ㅋ
+n번째 태그 수정하기 nth-child(n)
 span:nth-child(2) {
 background-color: teal;
 }
@@ -47,8 +47,7 @@ span:nth-child(even) { //or odd ( 홀수 )
 background-color: teal;
 }
 
-even은 짝수! 짝수번째를 모두 바꿀 수있다 오 so cool !
-
+even은 짝수! 짝수번째를 모두 바꿀 수있다 
 
 span:nth-child(5n + 1) {
 background-color: silver;
@@ -73,7 +72,7 @@ p + span {
 color: black;
 
 }
-+ 를 사용하면 형제에게 영향을 끼칠 수 있다. cool
++ 를 사용하면 형제에게 영향을 끼칠 수 있다. 
 
 
 ※ > 를 사용하면 direct child를 찾고, + 를 사용하면 바로 코드상 밑에 있는 sibling을 찾게된다.
@@ -117,7 +116,7 @@ a 즉 알파는 투명도를 말하는 것이다
 
 Variable (custom properties )
 
-variable도 정말 중요하다 !!!
+
 이게 css를 프로그래밍언어처럼 보여준다
 프로그래밍언어는아니지만 그 장점을 보여주는것임
 
