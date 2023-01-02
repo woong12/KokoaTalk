@@ -1,0 +1,55 @@
+.more-screen .icon-row {
+    margin-top: 10px;
+}
+
+.phone-number {
+    position: relative;
+    display: flex;
+}
+
+.phone-number img {
+    position: absolute;
+    margin-left: 145px;
+    margin-top: 6px;
+}
+
+.user-component__avatar--more {
+    border: 0.1px solid rgba(0, 0, 0, 0.1);
+    width: 75px;
+    height: 75px;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.user-component__column-message {
+    font-size: 28px;
+}
+
+.icon-row__icon__more:nth-child(2) {
+    position: relative;
+}
+
+.icon-row__icon__more .dot {
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    position: absolute;
+    right: 43px;
+    top: -3px;
+}
+
+.user-component__subtitle-p {
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.more-suggestions__title {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}

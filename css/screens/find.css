@@ -1,32 +1,6 @@
-.find-icons {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    align-items: center;
-}
-
-.find-icons__icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 20%;
-    margin-bottom: 35px;
-}
-
-.find-icons__icon-contact {
-    position: relative;
-}
-
 .contact-img {
     position: absolute;
     margin-top: -30px;
-}
-
-.find-icons__icon span {
-    margin-top: 25px;
-    font-weight: 600;
-    font-size: 17px;
-    display: flex;
 }
 
 .contact {
