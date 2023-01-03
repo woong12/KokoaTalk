@@ -11,6 +11,19 @@
     font-weight: 700;
 }
 
+.alt-header__column-chat {
+    position: relative;
+}
+
+.glass-chat {
+    position: absolute;
+    margin-left: -50px;
+}
+
+.alt-header__title-chat {
+    margin-left: 10px;
+}
+
 .alt-header__column i {
     font-size: 27px;
 }
