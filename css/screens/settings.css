@@ -70,3 +70,7 @@
     font-size: 13px;
     font-weight: 600;
 }
+
+.settings__setting:last-child {
+    padding-bottom: 200px;
+}
