@@ -1,0 +1,23 @@
+.settings__setting {
+    padding: 22px 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    font-weight: 600;
+    font-size: 22px;
+    align-items: center;
+    position: relative;
+}
+
+.settings__setting img {
+    margin-right: 15px;
+    margin-bottom: -5px;
+}
+
+.settings__setting:nth-child(2) img {
+    margin-left: 3px;
+}
+
+.settings__setting:nth-child(3) span {
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 2px;
+}
