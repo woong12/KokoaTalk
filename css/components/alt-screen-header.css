@@ -20,8 +20,8 @@
     margin-left: -50px;
 }
 
-.alt-header__title-chat {
-    margin-left: 10px;
+.alt-header__column {
+    width: 33%;
 }
 
 .alt-header__column i {
@@ -32,6 +32,12 @@
     margin-right: auto;
 }
 
+.alt-header__column:nth-child(2) {
+    text-align: center;
+}
+
 .alt-header__column:last-child {
+    display: flex;
+    justify-content: flex-end;
     margin-left: auto;
 }
