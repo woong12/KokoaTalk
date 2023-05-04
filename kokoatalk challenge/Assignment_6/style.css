@@ -1,0 +1,285 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: slategrey;
+}
+
+.phone {
+  position: relative;
+  height: 650px;
+  width: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back_label {
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  background-color: gold;
+  z-index: 1;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  height: 70px;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.search {
+  width: 90%;
+  height: 40px;
+  box-shadow: 0px 0.5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  z-index: 2;
+  background-color: white;
+  margin-bottom: 25px;
+}
+
+.search span {
+  font-size: 11px;
+  opacity: 0.2;
+  margin-left: 10px;
+}
+
+.fa-magnifying-glass {
+  opacity: 0.2;
+  font-size: 13px;
+}
+
+.main {
+  width: 90%;
+  height: 80%;
+}
+
+.intro {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+.main_book {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.mainbook_img {
+  width: 85px;
+  height: 140px;
+  border-radius: 5px;
+  background-color: blue;
+  background-image: url("https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.mainbook_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainbook_title {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.mainbook_au {
+  font-size: 10px;
+  opacity: 0.3;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.mainbook_star {
+  font-size: 9px;
+  margin-left: 3px;
+  color: gold;
+  margin-bottom: 15px;
+}
+
+.mainbook_star .fa-star:nth-child(5) {
+  opacity: 0.5;
+  color: lightgrey;
+}
+
+.mainbook_btn {
+  display: flex;
+  margin-left: 3px;
+  gap: 7px;
+  margin-bottom: 15px;
+}
+
+.journey {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 23px;
+  font-size: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.biography {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 10px;
+  width: 70px;
+  height: 23px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.mainbook_addbtn {
+  display: flex;
+  margin-left: 3px;
+  align-items: center;
+  gap: 35px;
+  width: 100%;
+}
+
+.bookmark {
+  width: 30px;
+  height: 30px;
+  background-color: gold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+.read {
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 9px;
+  background-color: black;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.reco_book {
+  display: flex;
+  align-items: center;
+  width: 105.5%;
+  height: 120px;
+  gap: 23px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.reco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+  height: 120px;
+}
+
+.recobook_img {
+  width: 60px;
+  height: 100px;
+  background-color: black;
+  border-radius: 7px;
+}
+
+.recobook_img1 {
+  background-image: url("https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.recobook_img2 {
+  background-image: url("https://images.unsplash.com/photo-1512850183-6d7990f42385?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.recobook_img3 {
+  background-image: url("https://images.unsplash.com/photo-1563387852576-964bc31b73af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2107&q=80");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.recobook_img4 {
+  background-image: url("https://images.unsplash.com/photo-1620503374956-c942862f0372?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.recobook_star {
+  display: flex;
+  font-size: 6px;
+  margin-top: 14px;
+  display: flex;
+  color: gold;
+  gap: 3px;
+}
+
+.recobook_star .fa-star:nth-child(5) {
+  opacity: 0.5;
+  color: lightgrey;
+}
+
+.author {
+  display: flex;
+  width: 100%;
+  height: 105px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author_img {
+  width: 85px;
+  border-radius: 10px;
+  height: 100%;
+  background-color: brown;
+  background-image: url("https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.author_info {
+  height: 90%;
+  width: 165px;
+}
+
+.author_info_title {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 7px;
+  line-height: 18px;
+}
+
+.author_para {
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.15;
+}
